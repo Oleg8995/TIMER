@@ -1,0 +1,32 @@
+* {
+    font-family: 'Roboto';
+}
+.timer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__block {
+    width: 110px;
+    height: 120px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.timer__block:last-child {
+    margin-right: 0;
+}
+
+.timer__block span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700;
+}
